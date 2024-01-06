@@ -1,0 +1,40 @@
+.toDoContainer{
+    width:100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.listItems{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+    
+}
+.deleteBtn{
+    padding:10px;
+    font-weight: 800;
+    background-color:rgba(63, 75, 113, 0.995);
+    border:none;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.todoComplete{
+    flex:1;
+    padding-left:20px;
+    text-decoration: line-through;
+
+
+}
+.todoInComplete{
+    flex:1;
+    padding-left:20px;
+}
